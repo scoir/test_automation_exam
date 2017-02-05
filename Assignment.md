@@ -7,6 +7,7 @@ SCOIR has a student focused application where a student user can fill out their 
 
 ## Before you begin - Create at least one test user
 Automated tests need to be executed as a test user.
+
 1. Navigate to the student user signup page: [https://sif.scoir.rocks/signup](https://sif.scoir.rocks/signup)
 1. Sign up for an account
 1. Confirm the account using the email provided.
