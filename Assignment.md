@@ -5,7 +5,11 @@ Build a series of automated tests that would correctly identify a defect introdu
 ## Background
 SCOIR has a student focused application where a student user can fill out their profile. This profile section has many facets but today's exercise is limited to recording standardized test results. We need a regression suite that will test whether a student user can add, update, and delete a "test result" record for the various SAT tests supported by the system.
 
-## Before you begin - Create at least one test user
+Review [User_Stories.md](./User_Stories.md) for requirements details of the page.
+
+You are only expected to build automated tests for "SAT" & "SAT (2400)" test types
+
+## Before you begin - Create a test user
 Automated tests need to be executed as a test user.
 
 1. Navigate to the student user signup page: [https://sif.scoir.rocks/signup](https://sif.scoir.rocks/signup)
@@ -19,31 +23,3 @@ Automated tests need to be executed as a test user.
 1. Click "My Profile"
 1. On the left rail of the screen, click "Test Scores"
 1. You should now see a list standardized test types
-
-## Requirements
-### Test types
-You are only expected to build automated tests for "SAT" & "SAT (2400)" test types
-
-### SAT
-A valid SAT test result record contains the following:
-* A Test Date. (Can be any past date. Can also be today's date)
-* Reading/Writing Score. (Must be an integer from 200-800 inclusive. The only allowed step size is 10)
-* Math Score. (Must be an integer from 200-800 inclusive. The only allowed step size is 10)
-
-### SAT (2400)
-A valid SAT (2400) test result record contains the following:
-* A Test Date. (Can be any past date. Can also be today's date)
-* Reading Score. (Must be an integer from 200-800 inclusive. The only allowed step size is 10)
-* Writing Score. (Must be an integer from 200-800 inclusive. The only allowed step size is 10)
-* Math Score. (Must be an integer from 200-800 inclusive. The only allowed step size is 10)
-
-### Automated test cases
-Please test the following:
-* Boundary testing on all fields
-* Required fields are enforced
-* The user can add a test result record for SAT test type
-* The user can cancel an un-submitted test result record for SAT test type
-* The user can delete an existing test result record for SAT test type
-* The user can add a test result record for SAT (2400) test type
-* The user can cancel an un-submitted test result record for SAT (2400) test type
-* The user can delete an existing test result record for SAT (2400) test type
