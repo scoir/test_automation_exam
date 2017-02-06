@@ -1,6 +1,6 @@
 # Assignment
 ## What you need to do
-Build a series of automated tests that would correctly identify a defect introduced by code change. Please read the following sections for details.
+Build a series of automated tests that would correctly identify a defect introduced by a code change. Please read the following sections for details.
 
 ## Background
 SCOIR has a student focused application where a student user can fill out their profile. This profile section has many facets but today's exercise is limited to recording standardized test results. We need a regression suite that will test whether a student user can add, update, and delete a "test result" record for the various SAT tests supported by the system.
@@ -18,7 +18,7 @@ Automated tests need to be executed as a test user.
 1. In the confirmation process, be sure you are creating a "High School Student". Use any high school available in the typeahead. Pick any graduation year. Enter any valid zip code.
 
 ## How to get to the student user profile
-1. Log in with a test user
+1. Log in with a test user: [https://sif.scoir.rocks/signin](https://sif.scoir.rocks/signin)
 1. On the upper right hand corner of the screen click the 3 stacked bars, also known as a [hamburger menu](https://en.wikipedia.org/wiki/Hamburger_button)
 1. Click "My Profile"
 1. On the left rail of the screen, click "Test Scores"
