@@ -9,5 +9,5 @@ This repo contains an exercise intended for Test Automation Engineers.
 
 
 ## Expectations
-1. This exercise should take participants no more than 3 hours. Please do not spend more than that amount of time.
+1. Please take no more than 3 hours to work on this exercise. Complete as much as possible and then submit your solution.
 1. This exercise is meant to showcase how you work. With consideration to the time limit, do your best to treat it like a production system.
